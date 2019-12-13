@@ -376,3 +376,7 @@
 2019-12-13 18:53:01,723 [Worker-95: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/akhil/javaBestPractices/Junit-Test/src/main/resources
 2019-12-13 18:53:01,724 [Worker-95: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-12-13 18:53:01,725 [Worker-95: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/akhil/javaBestPractices/Junit-Test/src/test/resources
+2019-12-13 19:00:48,842 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-13 19:00:48,843 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/akhil/javaBestPractices/Junit-Test/src/main/resources
+2019-12-13 19:00:48,845 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-13 19:00:48,845 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/akhil/javaBestPractices/Junit-Test/src/test/resources
