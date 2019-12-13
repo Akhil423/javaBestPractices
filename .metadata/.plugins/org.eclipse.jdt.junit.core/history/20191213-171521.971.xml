@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="QuickBeforeAndAfter" project="Junit-Test" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.practice.test.Junit_Test.QuickBeforeAndAfter" time="0.001">
+    <testcase name="test" classname="com.practice.test.Junit_Test.QuickBeforeAndAfter" time="0.001"/>
+    <testcase name="test2" classname="com.practice.test.Junit_Test.QuickBeforeAndAfter" time="0.0"/>
+  </testsuite>
+</testrun>

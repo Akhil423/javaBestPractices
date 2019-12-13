@@ -2,11 +2,19 @@ package com.practice.test.Junit_Test;
 
 import static org.junit.Assert.*;
 
+import org.junit.Before;
 import org.junit.Test;
 
 public class StringHelperTest {
 
-	StringHelper helper = new StringHelper();
+	StringHelper helper;
+	
+	@Before
+	public void initializeObject() {
+	
+		helper= new StringHelper();
+	
+	}
 	
 	@Test
 	public void testtruncateAInFirst2Positions() {
