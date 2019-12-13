@@ -1,0 +1,26 @@
+package com.practice.test.Junit_Test;
+
+import static org.junit.Assert.*;
+
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+
+@RunWith(Parameterized.class)
+public class StringHelperParameterizedTest {
+
+	StringHelper helper = new StringHelper();;
+	
+	
+	
+	@Test
+	public void testtruncateAInFirst2Positions() {
+		
+		assertEquals("CD", helper.truncateAInFirst2Positions("AACD"));
+		
+	}
+	
+	
+
+}
