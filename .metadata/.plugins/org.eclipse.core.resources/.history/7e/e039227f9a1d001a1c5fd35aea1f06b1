@@ -22,15 +22,15 @@ public class StringHelperTest {
 	}
 	
 	@Test
-	public void areFirstAndLastTwoCharactersTheSame_Negative() {
+	public void areFirstAndLastTwoCharactersTheSame() {
 		
 		assertFalse(helper.areFirstAndLastTwoCharactersTheSame("ABCD"));
 	}
 	
 	@Test
-	public void areFirstAndLastTwoCharactersTheSame_Positive() {
+	public void areFirstAndLastTwoCharactersTheSame() {
 		
-		assertTrue(helper.areFirstAndLastTwoCharactersTheSame("ABAB"));
+		assertFalse(helper.areFirstAndLastTwoCharactersTheSame("ABCD"));
 	}
 
 }
