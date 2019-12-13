@@ -12,9 +12,6 @@ public class StringHelperTest {
 		StringHelper helper = new StringHelper();
 		
 		assertEquals("CD", helper.truncateAInFirst2Positions("AACD"));
-		
-		assertEquals("CD", helper.truncateAInFirst2Positions("ACD"));
-	
 	}
 
 }
