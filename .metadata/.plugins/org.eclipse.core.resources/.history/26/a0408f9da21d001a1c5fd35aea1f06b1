@@ -1,0 +1,15 @@
+package com.practice.test.Junit_Test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CompareArrayTest {
+
+	@Test
+	public void testArraySortAlgo() {
+		
+		int[] = {15, 8, 1, 4};
+	}
+
+}

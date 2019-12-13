@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CompareArrayTest" project="Junit-Test" tests="3" started="3" failures="0" errors="1" ignored="0">
+  <testsuite name="com.practice.test.Junit_Test.CompareArrayTest" time="0.027">
+    <testcase name="testArraySortPerformance" classname="com.practice.test.Junit_Test.CompareArrayTest" time="0.022">
+      <error>org.junit.runners.model.TestTimedOutException: test timed out after 10 milliseconds
+	at app//com.practice.test.Junit_Test.CompareArrayTest.testArraySortPerformance(CompareArrayTest.java:39)
+	at java.base@11.0.5/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.5/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.5/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.5/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at app//org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at app//org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at app//org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at app//org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at app//org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base@11.0.5/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.5/java.lang.Thread.run(Thread.java:834)
+
+</error>
+    </testcase>
+    <testcase name="testArraySortAlgo" classname="com.practice.test.Junit_Test.CompareArrayTest" time="0.003"/>
+    <testcase name="testArraySortNull" classname="com.practice.test.Junit_Test.CompareArrayTest" time="0.001"/>
+  </testsuite>
+</testrun>
